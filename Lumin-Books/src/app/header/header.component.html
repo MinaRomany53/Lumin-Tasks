@@ -4,12 +4,6 @@
       <img src="../assets/images/logo.svg" alt="logo" />
       <h1>LUMIN B<span class="green">OO</span>KS</h1>
     </div>
-    <div
-      class="toggleBtn"
-      [ngClass]="isDarkTheme ? 'dark' : 'light'"
-      (click)="toggleTheme()"
-    >
-      <div class="toggleBtnSlider"></div>
-    </div>
+    <app-toggle-btn></app-toggle-btn>
   </div>
 </header>
