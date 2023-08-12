@@ -1,0 +1,33 @@
+<main class="container books">
+  <section class="books-list">
+    <ul class="list">
+      <li
+        class="item"
+        *ngFor="let book of books; let i = index"
+        (click)="selectBook(book)"
+        (click)="onActive(i)"
+        [class.active]="selectedBookIndex === i"
+      >
+        <img [src]="'../assets/images/' + book.thumbnail" [alt]="book.title" />
+        <h3>{{ book.title }}</h3>
+      </li>
+    </ul>
+  </section>
+
+  <section class="book-details" *ngIf="selectedBook">
+    <div class="content">
+      <div class="image">
+        <img
+          [src]="'../assets/images/' + selectedBook.thumbnail"
+          [alt]="selectedBook.title"
+        />
+      </div>
+      <div class="details">
+        <h2>{{ selectedBook.title }}</h2>
+        <p>Author: {{ selectedBook.author }}</p>
+        <p>Publication Year: {{ selectedBook.publicationYear }}</p>
+      </div>
+    </div>
+    <p class="description">{{ selectedBook.description }}</p>
+  </section>
+</main>

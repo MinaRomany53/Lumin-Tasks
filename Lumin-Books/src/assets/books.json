@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1111,
+    "title": "Book 1",
+    "author": "Author 1",
+    "publicationYear": 2020,
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi magni,adipisci et maxime veniam placeat sapiente nam doloremque ullam.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 2222,
+    "title": "Book 2",
+    "author": "Author 2",
+    "publicationYear": 2021,
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi magni,adipisci et maxime veniam placeat sapiente nam doloremque ullam.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 3333,
+    "title": "Book 3",
+    "author": "Author 3",
+    "publicationYear": 2022,
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi magni,adipisci et maxime veniam placeat sapiente nam doloremque ullam.",
+    "thumbnail": "default.jpg"
+  }
+]
