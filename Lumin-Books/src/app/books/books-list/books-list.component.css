@@ -21,7 +21,7 @@
   padding: 1rem 0.5rem;
   border-radius: 0.7rem;
   border-bottom: 1px solid var(--gray2);
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 .item:hover,
 .item:focus {

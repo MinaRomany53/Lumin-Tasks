@@ -1,26 +1,82 @@
 [
   {
     "id": 1111,
-    "title": "Book 1",
-    "author": "Author 1",
-    "publicationYear": 2020,
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi magni,adipisci et maxime veniam placeat sapiente nam doloremque ullam.",
+    "title": "The Enigma of Echo Valley",
+    "author": "Samantha Reynolds",
+    "publicationYear": 2019,
+    "description": "A thrilling mystery set in the quiet town of Echo Valley, where secrets come to light and danger lurks around every corner.",
     "thumbnail": "default.jpg"
   },
   {
     "id": 2222,
-    "title": "Book 2",
-    "author": "Author 2",
-    "publicationYear": 2021,
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi magni,adipisci et maxime veniam placeat sapiente nam doloremque ullam.",
+    "title": "Eternal Skies",
+    "author": "James Davidson",
+    "publicationYear": 2022,
+    "description": "In a world where the skies hold the key to power, two adventurers set out on an epic journey to uncover ancient secrets.",
     "thumbnail": "default.jpg"
   },
   {
     "id": 3333,
-    "title": "Book 3",
-    "author": "Author 3",
-    "publicationYear": 2022,
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quasi magni,adipisci et maxime veniam placeat sapiente nam doloremque ullam.",
+    "title": "Beyond the Horizon",
+    "author": "Emily Carter",
+    "publicationYear": 2017,
+    "description": "A heartwarming story of love and friendship that takes place in a picturesque seaside village.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 4444,
+    "title": "Whispers in the Woods",
+    "author": "Daniel Anderson",
+    "publicationYear": 2020,
+    "description": "In a remote forest, a series of eerie whispers leads a group of friends to uncover ancient secrets and confront their fears.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 5555,
+    "title": "Serenade of Stars",
+    "author": "Lily Mitchell",
+    "publicationYear": 2018,
+    "description": "A romance that spans across galaxies, where two star-crossed lovers must defy the odds to be together.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 6666,
+    "title": "The Midnight Garden",
+    "author": "Alex Turner",
+    "publicationYear": 2016,
+    "description": "A tale of magic and mystery in a hidden garden that comes to life only at the stroke of midnight.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 7777,
+    "title": "Echoes of Eternity",
+    "author": "Olivia Roberts",
+    "publicationYear": 2021,
+    "description": "As the fabric of time begins to unravel, a young historian must navigate through different eras to save the world from chaos.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 8888,
+    "title": "Secrets of the Sea",
+    "author": "William Parker",
+    "publicationYear": 2015,
+    "description": "An underwater adventure filled with hidden treasures, mermaids, and the pursuit of a long-lost pirate's legacy.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 9999,
+    "title": "Whispers in the Wind",
+    "author": "Sophia White",
+    "publicationYear": 2023,
+    "description": "In a world where magic is real, a young mage embarks on a journey to master her powers and uncover the truth behind ancient prophecies.",
+    "thumbnail": "default.jpg"
+  },
+  {
+    "id": 1010,
+    "title": "Mysteries of the Moon",
+    "author": "Michael Johnson",
+    "publicationYear": 2014,
+    "description": "When a series of mysterious lunar phenomena occur, a group of astronomers must decipher the clues hidden in the night sky.",
     "thumbnail": "default.jpg"
   }
 ]
