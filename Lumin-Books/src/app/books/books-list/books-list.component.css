@@ -1,0 +1,48 @@
+/**/
+.books-list {
+  overflow-y: scroll;
+  height: 80vh;
+}
+.books-list::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0.8rem 0;
+}
+
+.item {
+  display: flex;
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  border-radius: 0.7rem;
+  border-bottom: 1px solid var(--gray2);
+  transition: background-color 0.3s ease-in-out;
+}
+.item:hover,
+.item:focus {
+  background-color: var(--gray2);
+}
+.item.active {
+  background-color: var(--gray2);
+}
+
+.item img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.7rem;
+}
+
+.item h3 {
+  font-size: 1.8rem;
+  color: var(--gray4);
+  padding-top: 0.5rem;
+  margin-left: 1.2rem;
+  max-width: 18rem;
+  word-wrap: break-word;
+}
+/**/

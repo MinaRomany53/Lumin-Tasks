@@ -1,0 +1,14 @@
+<section class="books-list">
+  <ul class="list">
+    <li
+      class="item"
+      *ngFor="let book of books; let i = index"
+      (click)="selectBook(book)"
+      (click)="onActive(i)"
+      [class.active]="selectedBookIndex === i"
+    >
+      <img [src]="'../assets/images/' + book.thumbnail" [alt]="book.title" />
+      <h3>{{ book.title }}</h3>
+    </li>
+  </ul>
+</section>

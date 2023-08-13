@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ToggleBtnComponent } from './header/toggle-btn/toggle-btn.component';
 import { BooksComponent } from './books/books.component';
+import { BooksListComponent } from './books/books-list/books-list.component';
+import { BooksDetailsComponent } from './books/books-details/books-details.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { BooksComponent } from './books/books.component';
     HeaderComponent,
     ToggleBtnComponent,
     BooksComponent,
+    BooksListComponent,
+    BooksDetailsComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],

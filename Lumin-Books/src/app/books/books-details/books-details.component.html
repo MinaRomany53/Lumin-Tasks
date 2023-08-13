@@ -1,0 +1,13 @@
+<section class="book-details" *ngIf="book">
+  <div class="content">
+    <div class="image">
+      <img [src]="'../assets/images/' + book.thumbnail" [alt]="book.title" />
+    </div>
+    <div class="details">
+      <h2>{{ book.title }}</h2>
+      <p>Author: {{ book.author }}</p>
+      <p>Publication Year: {{ book.publicationYear }}</p>
+    </div>
+  </div>
+  <p class="description">{{ book.description }}</p>
+</section>

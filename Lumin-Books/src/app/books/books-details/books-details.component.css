@@ -1,0 +1,40 @@
+.book-details {
+  background-color: var(--gray2);
+  border-radius: 0.7rem;
+  padding: 1.5rem;
+}
+
+.book-details .content {
+  display: flex;
+}
+
+.book-details .content .image {
+  width: 30%;
+  margin-right: 2rem;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.book-details .content .details {
+  padding: 1rem;
+  width: 70%;
+}
+
+.details h2 {
+  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  color: var(--gray4);
+}
+
+.details p {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-details .description {
+  padding: 1rem;
+  font-size: 1.6rem;
+}
