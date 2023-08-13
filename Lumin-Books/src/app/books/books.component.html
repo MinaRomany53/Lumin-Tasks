@@ -1,4 +1,7 @@
 <main class="container books">
-  <app-books-list (selectedBook)="onBookSelected($event)"></app-books-list>
+  <app-books-list
+    [books]="books"
+    (selectedBook)="onBookSelected($event)"
+  ></app-books-list>
   <app-books-details [book]="selectedBook"></app-books-details>
 </main>

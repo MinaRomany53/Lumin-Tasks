@@ -1,5 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
-import { BooksService } from '../books.service';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Book } from '../book.model';
 
 @Component({
@@ -8,17 +7,9 @@ import { Book } from '../book.model';
   styleUrls: ['./books-list.component.css'],
 })
 export class BooksListComponent {
-  books: Book[] = [];
+  @Input() books: Book[] = [];
   @Output() selectedBook = new EventEmitter<Book>();
   selectedBookIndex: number | null = null;
-
-  constructor(private booksService: BooksService) {}
-
-  ngOnInit(): void {
-    this.booksService.getBooks().subscribe((data) => {
-      this.books = data;
-    });
-  }
 
   selectBook(book: Book): void {
     this.selectedBook.emit(book);
