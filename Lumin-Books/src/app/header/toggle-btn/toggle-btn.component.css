@@ -23,7 +23,6 @@
 .toggleBtn.dark .toggleBtnSlider {
   transform: translateX(26px);
 }
-
 .toggleBtn.light .toggleBtnSlider {
   transform: translateX(0);
 }

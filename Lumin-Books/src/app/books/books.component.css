@@ -4,7 +4,6 @@
   grid-template-columns: 30rem 1fr;
   gap: 6rem;
 }
-
 @media (max-width: 992px) {
   .books {
     grid-template-columns: 1fr;
