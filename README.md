@@ -9,6 +9,7 @@ https://lumin-books.netlify.app/
 
 ## Lumin-ProductManagementAPI | Backend task using .Net Core
 
+https://lumin-products.azurewebsites.net/api/v1/products  
 Simple CRUD REST API for managing products 
 
 ![Swagger](https://github.com/MinaRomany53/Lumin-Tasks/assets/84532337/b835b89b-6566-4bc0-87ba-e579794079a3)
