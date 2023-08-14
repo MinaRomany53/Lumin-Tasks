@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin\\Release\\net7.0\\publish",
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/d8cf97ca-c2cd-4a15-b9f3-75ed6cb7cfdd/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/Lumin-Products"
+}

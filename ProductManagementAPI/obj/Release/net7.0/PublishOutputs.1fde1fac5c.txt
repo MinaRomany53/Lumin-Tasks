@@ -1,0 +1,12 @@
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\ProductManagementAPI.exe
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\appsettings.Development.json
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\appsettings.json
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\ProductManagementAPI.dll
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\ProductManagementAPI.deps.json
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\ProductManagementAPI.runtimeconfig.json
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\ProductManagementAPI.pdb
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\Microsoft.AspNetCore.OpenApi.dll
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\Microsoft.OpenApi.dll
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Angular\Tasks\ProductManagementAPI\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
