@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--gray1);
+  height: 6rem;
+  padding: 1rem 0;
+}
+.header .content {
+  height: 6rem;
+  padding: 1rem 0;
+}
+.header .logo {
+  margin: 0 auto;
+}
+.header .logo img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1.2rem;
+}
+.header .logo h1 {
+  font-size: 2.5rem;
+  color: var(--gray4);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green {
+  color: var(--green);
+}
