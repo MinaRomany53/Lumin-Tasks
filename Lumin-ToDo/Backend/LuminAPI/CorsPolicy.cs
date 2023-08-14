@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Cors.Infrastructure;
 
-
 public class CorsPolicy
     {
         public const string AllowAll = "AllowAll";
