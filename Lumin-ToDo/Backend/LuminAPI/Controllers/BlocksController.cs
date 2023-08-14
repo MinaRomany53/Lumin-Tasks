@@ -1,12 +1,15 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 using LuminAPI.Models;
+
 
 namespace LuminAPI.Controllers
 {
     [ApiController]
     [Route("api/v1/blocks")]
+    [EnableCors("AllowAll")] 
     public class BlocksController : ControllerBase
     {
        private static readonly List<Block> blocks = new List<Block>
