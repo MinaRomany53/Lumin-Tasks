@@ -70,6 +70,19 @@ namespace LuminAPI.Controllers
 
             return CreatedAtAction(nameof(GetBlocks), new { id = block.TaskId }, block);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteBlock(int id)
+        {
+            Block block = blocks.Find(b => b.TaskId == id);
+            if (block == null)
+            {
+                return NotFound();
+            }
+
+            blocks.Remove(block);
+            return NoContent();
+        }
     }
 }
 
