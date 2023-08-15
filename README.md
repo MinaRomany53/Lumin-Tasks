@@ -18,10 +18,11 @@ Simple CRUD REST API for managing products
 
 ## Lumin-Tasks | FullStack task using Angular & .Net Core
 
-Client Side: https://lumin-books.netlify.app/
+Client Side: https://lumin-tasks.vercel.app/   
+
 Server Side: https://lumin-tasks.azurewebsites.net/api/v1/blocks
 
-
+![screencapture-lumin-tasks-vercel-app-2023-08-15-09_13_42](https://github.com/MinaRomany53/Lumin-Tasks/assets/84532337/0a7f0f74-2f45-4494-9573-d9968e83f213)
 ![screencapture-localhost-5146-swagger-index-html-2023-08-15-08_40_16](https://github.com/MinaRomany53/Lumin-Tasks/assets/84532337/c9e7fc71-dc74-4141-afbe-f9b6038e183c)
 
 
