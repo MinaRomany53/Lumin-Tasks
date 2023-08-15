@@ -20,7 +20,7 @@ import { TasksListComponent } from './tasks/tasks-list/tasks-list.component';
     TasksFormComponent,
     TasksListComponent,
   ],
-  imports: [BrowserModule, FormsModule, HttpClientModule], // Add FormsModule here
+  imports: [BrowserModule, FormsModule, HttpClientModule],
 
   providers: [TaskService],
 

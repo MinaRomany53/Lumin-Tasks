@@ -1,1 +1,23 @@
-<p>tasks-list works!</p>
+<section>
+  <ul class="list">
+    <li
+      *ngFor="let task of tasks"
+      class="task"
+      [ngClass]="task.isCompleted ? 'isCompleted' : ''"
+    >
+      <div class="content">
+        <h3>{{ task.description }}</h3>
+        <p>{{ task.dueDate | date : "yyyy-MM-dd" }}</p>
+      </div>
+      <div class="actions">
+        <input
+          type="checkbox"
+          class="checkbox"
+          [(ngModel)]="task.isCompleted"
+          (change)="completeTask(task.taskId)"
+        />
+        <button (click)="deleteTask(task.taskId)" class="deleteBtn">X</button>
+      </div>
+    </li>
+  </ul>
+</section>

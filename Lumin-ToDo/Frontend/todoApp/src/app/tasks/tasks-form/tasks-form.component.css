@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 10rem;
+}
+.form-control {
+  background-color: #fdfdfd;
+  margin-right: 2rem;
+  height: 4rem;
+  width: 50rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: inherit;
+  outline: none;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  caret-color: var(--green);
+}
+.form-control:focus,
+.form-control:active {
+  border: 1px solid var(--green);
+}
+.dateInput {
+  width: 14rem;
+  font-size: 1.4rem;
+}
+.btn {
+  height: 4rem;
+  background-color: var(--green);
+  color: #fdfdfd;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: var(--green-hover);
+}

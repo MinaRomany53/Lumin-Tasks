@@ -1,1 +1,21 @@
-<p>tasks-form works!</p>
+<form>
+  <input
+    type="text"
+    class="form-control"
+    id="description"
+    [(ngModel)]="taskDescription"
+    name="description"
+    placeholder="Add New Task..."
+    required
+  />
+  <input
+    type="date"
+    class="form-control dateInput"
+    id="dueDate"
+    [(ngModel)]="dueDate"
+    name="dueDate"
+    required
+  />
+
+  <button type="submit" class="btn" (click)="onSubmit()">Submit</button>
+</form>

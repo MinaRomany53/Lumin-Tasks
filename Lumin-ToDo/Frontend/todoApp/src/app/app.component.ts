@@ -6,6 +6,3 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {}
-
-// Tasks Component (Parent)
-// Tasks-Form Component (Child)    // Tasks-List Component (Child)

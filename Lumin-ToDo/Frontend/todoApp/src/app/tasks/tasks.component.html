@@ -1,28 +1,4 @@
 <main class="container">
-  <h2>Task List</h2>
-
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Task Id</th>
-        <th>Task Description</th>
-        <th>Due Date</th>
-        <th>Is Completed</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let task of tasks">
-        <td>{{ task.taskId }}</td>
-        <td>{{ task.description }}</td>
-        <td>{{ task.dueDate | date : "yyyy-MM-dd" }}</td>
-        <td>
-          <input
-            type="checkbox"
-            [(ngModel)]="task.isCompleted"
-            (change)="completeTask(task.taskId)"
-          />
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <app-tasks-form (loadTasks)="onAnyAction()"></app-tasks-form>
+  <app-tasks-list (loadTasks)="onAnyAction()" [tasks]="tasks"></app-tasks-list>
 </main>

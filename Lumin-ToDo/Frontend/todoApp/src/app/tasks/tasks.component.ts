@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { TaskService } from './task.service';
 
 @Component({
@@ -21,9 +21,7 @@ export class TasksComponent implements OnInit {
     });
   }
 
-  completeTask(taskId: number): void {
-    this.taskService.completeTask(taskId).subscribe(() => {
-      this.loadTasks(); // Refresh the task list
-    });
+  onAnyAction(): void {
+    this.loadTasks();
   }
 }
