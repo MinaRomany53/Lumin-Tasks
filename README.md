@@ -2,7 +2,7 @@
 
 ## Lumin-Books | Frontend task using Angular
 
-https://lumin-books.netlify.app/
+https://lumin-books-uue1.vercel.app/
 
 ![00000](https://github.com/MinaRomany53/Lumin-Tasks/assets/84532337/d0f99b08-3775-4b71-90fe-f6e5a8bc4e3e)
 
