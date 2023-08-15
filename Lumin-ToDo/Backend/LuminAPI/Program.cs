@@ -20,6 +20,9 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+// Add CORS configuration before app.MapControllers()
+app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
 app.MapControllers();
 
 app.Run();

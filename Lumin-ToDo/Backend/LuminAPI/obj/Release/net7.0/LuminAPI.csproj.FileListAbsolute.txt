@@ -31,3 +31,6 @@ E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\obj\Release\net7.0\refint\LuminAPI.
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\obj\Release\net7.0\LuminAPI.pdb
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\obj\Release\net7.0\LuminAPI.genruntimeconfig.cache
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\obj\Release\net7.0\ref\LuminAPI.dll
+E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll

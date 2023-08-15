@@ -6,6 +6,9 @@ E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\LuminAPI
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\LuminAPI.runtimeconfig.json
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\LuminAPI.pdb
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Microsoft.AspNetCore.OpenApi.dll
+E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.dll
+E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Microsoft.OpenApi.dll
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.Swagger.dll
 E:\Angular\Tasks\Lumin-ToDo\Backend\LuminAPI\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll

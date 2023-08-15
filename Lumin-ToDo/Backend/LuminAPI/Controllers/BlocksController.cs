@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Cors;
 using LuminAPI.Models;
 
 
@@ -9,7 +8,6 @@ namespace LuminAPI.Controllers
 {
     [ApiController]
     [Route("api/v1/blocks")]
-    [EnableCors("AllowAll")] 
     public class BlocksController : ControllerBase
     {
        private static readonly List<Block> blocks = new List<Block>
@@ -52,7 +50,7 @@ namespace LuminAPI.Controllers
                 return NotFound();
             }
 
-            block.IsCompleted = true;
+            block.IsCompleted = !block.IsCompleted;
             return NoContent();
         }
 
@@ -65,8 +63,9 @@ namespace LuminAPI.Controllers
                 return BadRequest();
             }
 
-            // Assign a new unique TaskId
-            int newTaskId = blocks.Count + 1;
+            // Generate a unique TaskId using the current time in milliseconds
+            int newTaskId = Math.Abs((int)DateTimeOffset.Now.ToUnixTimeMilliseconds());
+            Console.WriteLine(newTaskId);
             block.TaskId = newTaskId;
 
             blocks.Add(block);
