@@ -1,11 +1,14 @@
 <main class="container">
-  <app-tasks-form
-    (loadTasks)="onAnyAction()"
-    [isLoading]="isLoading"
-  ></app-tasks-form>
-  <app-tasks-list
-    (loadTasks)="onAnyAction()"
-    [tasks]="tasks"
-    [isLoading]="isLoading"
-  ></app-tasks-list>
+  <app-error *ngIf="isError; else elseBlock"></app-error>
+  <ng-template #elseBlock>
+    <app-tasks-form
+      (loadTasks)="onAnyAction()"
+      [isLoading]="isLoading"
+    ></app-tasks-form>
+    <app-tasks-list
+      (loadTasks)="onAnyAction()"
+      [tasks]="tasks"
+      [isLoading]="isLoading"
+    ></app-tasks-list>
+  </ng-template>
 </main>
