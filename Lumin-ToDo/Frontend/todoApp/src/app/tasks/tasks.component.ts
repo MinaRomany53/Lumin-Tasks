@@ -21,6 +21,11 @@ export class TasksComponent implements OnInit {
     this.isLoading = true;
     this.taskService.getTasks().subscribe(
       (response) => {
+        response.sort(
+          (a: any, b: any) =>
+            new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime()
+        );
+
         this.tasks = response;
         this.isLoading = false; // Data fetched, set isLoading to false
         this.isError = false;
