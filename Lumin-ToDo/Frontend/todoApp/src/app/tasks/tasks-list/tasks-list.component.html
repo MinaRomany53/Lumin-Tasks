@@ -1,7 +1,9 @@
 <section>
-  <app-loader *ngIf="isLoading"></app-loader>
+  <div class="loader">
+    <app-loader *ngIf="isLoading"></app-loader>
+  </div>
 
-  <ul class="list" *ngIf="!isLoading">
+  <ul class="list">
     <li
       *ngFor="let task of tasks"
       class="task"
@@ -17,8 +19,15 @@
           class="checkbox"
           [(ngModel)]="task.isCompleted"
           (change)="completeTask(task.taskId)"
+          [disabled]="isLoading"
         />
-        <button (click)="deleteTask(task.taskId)" class="deleteBtn">X</button>
+        <button
+          (click)="deleteTask(task.taskId)"
+          class="btn deleteBtn"
+          [disabled]="isLoading"
+        >
+          X
+        </button>
       </div>
     </li>
   </ul>

@@ -1,3 +1,6 @@
+.loader {
+  height: 5rem;
+}
 section {
   max-height: 52rem;
   overflow-y: scroll;

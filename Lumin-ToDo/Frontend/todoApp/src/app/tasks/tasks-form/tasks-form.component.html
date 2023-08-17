@@ -17,5 +17,7 @@
     required
   />
 
-  <button type="submit" class="btn" (click)="onSubmit()">Submit</button>
+  <button type="submit" class="btn" (click)="onSubmit()" [disabled]="isLoading">
+    Submit
+  </button>
 </form>

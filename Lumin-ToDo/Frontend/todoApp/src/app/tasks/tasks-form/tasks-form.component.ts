@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { TaskService } from '../task.service';
 
 @Component({
@@ -10,6 +10,7 @@ export class TasksFormComponent implements OnInit {
   taskDescription: string = '';
   dueDate: string = '';
 
+  @Input() isLoading: boolean = false;
   @Output() loadTasks: any = new EventEmitter<any>();
 
   constructor(private taskService: TaskService) {}

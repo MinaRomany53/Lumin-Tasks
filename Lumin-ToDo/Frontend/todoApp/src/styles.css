@@ -95,3 +95,9 @@ body {
     width: 1360px;
   }
 }
+
+.btn:disabled {
+  background-color: var(--gray3);
+  opacity: 0.5;
+  cursor: not-allowed;
+}

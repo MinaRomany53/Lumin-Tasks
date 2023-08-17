@@ -19,10 +19,18 @@ export class TasksComponent implements OnInit {
 
   loadTasks(): void {
     this.isLoading = true;
-    this.taskService.getTasks().subscribe((data) => {
-      this.tasks = data;
-      this.isLoading = false;
-    });
+    this.taskService.getTasks().subscribe(
+      (response) => {
+        this.tasks = response;
+        this.isLoading = false; // Data fetched, set isLoading to false
+        this.isError = false;
+      },
+      (error) => {
+        console.error(error);
+        this.isLoading = false; // Handle error, set isLoading to false
+        this.isError = true;
+      }
+    );
   }
 
   onAnyAction(): void {
