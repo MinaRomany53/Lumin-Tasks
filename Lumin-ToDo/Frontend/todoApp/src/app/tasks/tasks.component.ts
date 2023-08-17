@@ -23,7 +23,7 @@ export class TasksComponent implements OnInit {
       (response) => {
         this.tasks = response;
         this.isLoading = false; // Data fetched, set isLoading to false
-        this.isError = true;
+        this.isError = false;
       },
       (error) => {
         console.error(error);
