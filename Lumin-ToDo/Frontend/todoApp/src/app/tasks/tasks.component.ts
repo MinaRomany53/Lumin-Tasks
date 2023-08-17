@@ -8,6 +8,8 @@ import { TaskService } from './task.service';
 })
 export class TasksComponent implements OnInit {
   tasks: any[] = [];
+  isLoading: boolean = false;
+  isError: boolean = false;
 
   constructor(private taskService: TaskService) {}
 
@@ -16,8 +18,10 @@ export class TasksComponent implements OnInit {
   }
 
   loadTasks(): void {
+    this.isLoading = true;
     this.taskService.getTasks().subscribe((data) => {
       this.tasks = data;
+      this.isLoading = false;
     });
   }
 

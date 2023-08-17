@@ -8,6 +8,7 @@ import { TaskService } from '../task.service';
 })
 export class TasksListComponent implements OnInit {
   @Input() tasks: any[] = [];
+  @Input() isLoading: boolean = false;
   @Output() loadTasks: any = new EventEmitter<any>();
 
   constructor(private taskService: TaskService) {}

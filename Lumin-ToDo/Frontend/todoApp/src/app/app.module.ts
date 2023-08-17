@@ -10,6 +10,8 @@ import { ToggleBtnComponent } from './header/toggle-btn/toggle-btn.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { TasksFormComponent } from './tasks/tasks-form/tasks-form.component';
 import { TasksListComponent } from './tasks/tasks-list/tasks-list.component';
+import { LoaderComponent } from '../components/loader/loader.component';
+import { ErrorComponent } from '../components/error/error.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { TasksListComponent } from './tasks/tasks-list/tasks-list.component';
     TasksComponent,
     TasksFormComponent,
     TasksListComponent,
+    LoaderComponent,
+    ErrorComponent,
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule],
 

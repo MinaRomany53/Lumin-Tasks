@@ -1,4 +1,8 @@
 <main class="container">
   <app-tasks-form (loadTasks)="onAnyAction()"></app-tasks-form>
-  <app-tasks-list (loadTasks)="onAnyAction()" [tasks]="tasks"></app-tasks-list>
+  <app-tasks-list
+    (loadTasks)="onAnyAction()"
+    [tasks]="tasks"
+    [isLoading]="isLoading"
+  ></app-tasks-list>
 </main>
