@@ -6,7 +6,7 @@ import { TaskService } from './tasks/task.service';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ToggleBtnComponent } from './header/toggle-btn/toggle-btn.component';
+import { ToggleBtnComponent } from '../components/toggle-btn/toggle-btn.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { TasksFormComponent } from './tasks/tasks-form/tasks-form.component';
 import { TasksListComponent } from './tasks/tasks-list/tasks-list.component';

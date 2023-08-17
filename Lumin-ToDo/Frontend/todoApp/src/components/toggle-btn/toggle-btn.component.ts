@@ -8,11 +8,19 @@ import { Component, Renderer2 } from '@angular/core';
 export class ToggleBtnComponent {
   isDarkTheme: boolean = false;
 
-  constructor(private renderer: Renderer2) {}
+  constructor(private renderer: Renderer2) {
+    const savedTheme = localStorage.getItem('theme'); // Check local storage for saved theme preference
+    this.isDarkTheme = savedTheme === 'dark';
+    this.applyTheme();
+  }
 
   toggleTheme() {
     this.isDarkTheme = !this.isDarkTheme;
+    this.applyTheme();
+    localStorage.setItem('theme', this.isDarkTheme ? 'dark' : 'light'); // Save theme preference to local storage
+  }
 
+  private applyTheme() {
     if (this.isDarkTheme) {
       this.renderer.addClass(document.body, 'dark');
       this.renderer.removeClass(document.body, 'light');
